@@ -1,0 +1,12 @@
+.Titles {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  padding: 25px;
+}
+
+.OnePhoto {
+  margin: 20px;
+}
