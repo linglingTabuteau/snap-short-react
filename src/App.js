@@ -22,13 +22,12 @@ function App() {
   };
 
   const searchHanlder = (e) => {
-    console.log("ok");
     setSearch(e.target.value);
   };
 
   return (
     <div className="App">
-      <h1>Snap Shots</h1>
+      <h1>Snap Short</h1>
       <div className="SearchBar">
         <input onChange={searchHanlder} value={search} />
         <img src="./images/search.jpg" alt="search" />
